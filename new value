@@ -1,0 +1,73 @@
+Tuple=(34,44,88,98)
+l=list(Tuple)
+print(l)
+l[2]=45
+print(l)
+Tuple=tuple(l)
+print(Tuple)
+number=[
+    [1,2,3],
+    [5,6,7],
+    [1,2,3]
+]
+print(number)
+print(len(number))
+ree=(23,67,89,90)
+print(ree)
+number=("teena",56,67,[45,78],True)
+print(number)
+number1=list(number)
+print(number1)
+number1.pop(1)
+print(number1)
+number=tuple(number1)
+print(number)
+y1=(1,2,3,4,5)
+y2=(6,7,8,9,10)
+print(y1+y2)
+number=(1,2),(3,4),(5,6)
+n1, n2, n3=number
+print(n1)
+print(n2)
+print(n3)
+x=["teena",[34,56],True,67]
+print(type(x))
+print(len(x))
+print(x[2])
+x.append(24)
+print(x)
+x.insert(2,"mahak")
+print(x)
+x.pop(1)
+print(x)
+x.remove(67)
+print(x)
+x.clear()
+print(x)
+
+list=[1,9,7,2,3,8,4,5,5]
+list.sort()
+print(list)
+#list.reverse()
+#print(list)
+list.sort(reverse=True)
+print(list)
+list.extend([14,35])
+print(list)
+print(list[1]) #index
+print(list[1:7])
+del list
+print(list)
+number1=("twinkle",[23,24],56,98,True,98,98)
+print(number1.count(98))
+print(number1.index(56))
+x1=list(number1)
+print(x1)
+x1.pop()
+print(x1)
+number1=tuple(x1)
+print(number1)
+y=((34,23),(34,76),22,99,78,99,76)
+y1,y2,y3,*y4=y
+print(y3)
+print(y4)
